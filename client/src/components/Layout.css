@@ -1,0 +1,107 @@
+.main{
+    padding: 20px;
+    height: 100vh;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+}
+.sidebar{
+    background-color: #054eebdc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+}
+.role{
+    color: white;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.body{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 82vh;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    overflow-x: scroll !important;
+}
+
+.menu{
+    margin-top: 100px;
+    padding: 0 10px;
+}
+.menu-item{
+    margin-top: 30px;
+
+}
+
+.menu-item a{
+    color: rgba(255, 255, 255, 0.815);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+
+}
+.menu-item i{
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 18px;
+}
+
+.active-menu-item{
+    color:white;
+    background-color: rgba(13, 13, 14, 0.416);
+    padding:5px;
+    border-radius: 5px;
+}
+
+.header-action-icon{
+    font-size: 30px !important;
+    color: black !important;
+    padding-left: 10px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .header-title{
+    background-color: #054eebdc;
+    padding: 0 2rem ;
+    border-radius: 2rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    .menu{
+        padding:0 5px ;
+    }
+    .header-title{
+        padding: 0 1rem ;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+}

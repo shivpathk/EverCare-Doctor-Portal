@@ -1,0 +1,87 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: 'Montserrat','sans-serif' !important;
+}
+
+
+/* antd override */
+
+input{
+  border-radius: 10px !important;
+  height: 32px !important;
+  font-size: 18px !important;
+}
+label{
+  font-size: 18px !important;
+}
+
+.ant-form-item{
+  margin: 1rem !important;
+}
+
+.ant-picker-input input{
+  border: none !important;
+}
+
+/* common styling */
+
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.621);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+}
+.spinner-border{
+  color: black;
+  height: 4rem;
+  width: 4rem;
+}
+
+.card{
+  box-shadow: 0 0 5px gray;
+  border-radius: 2rem !important;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.63);
+  margin: 1rem;
+}
+
+.page-title{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
+
+.normal-text{
+  font-size: 1rem;
+}
+
+.anchor{
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+}
+
+p{
+  color:black !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
