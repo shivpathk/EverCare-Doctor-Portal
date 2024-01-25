@@ -6,10 +6,12 @@ Authorization is working fine , the design is created using bootstrap , antd and
 The Server will run on http://localhost:5000
 Steps to run the server
 - cd server
+- npm init
 - nodemon server
 
   
 The client is created using create-react-app so it will run on http://localhost:3000
 Steps to run the client (in anohter Terminal )
 - cd client
+- npm init
 - npm start
